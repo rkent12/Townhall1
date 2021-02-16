@@ -8,6 +8,9 @@ body {
 header img {
 	float: left;
 }
+header h3 em {
+	text-shadow: 2px 2px 2px #800000;
+}
 
 /* the styles for the section */
 main {
@@ -15,3 +18,31 @@ main {
 }
 
 /* the styles for the footer */
+header h2 {
+	font-size: 170%;
+	color: #800000; 
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	text-indent: 30px;
+	font-style: italic;
+}
+main h1 {
+	font-size: 150%;
+	
+}
+main h2 {
+	font-size: 180%;
+	color: #800000;
+}
+main h3 {
+	font-size: 105%;
+}
+
+a:hover {
+	font-style: italic;
+}
+footer p {
+	text-align: center;
+}
