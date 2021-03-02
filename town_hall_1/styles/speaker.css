@@ -72,6 +72,7 @@ header h3 em {
 	text-shadow: 2px 2px 2px #800000;
 }
 
+
 /* the styles for the section */
 main {
 	clear: left;
@@ -155,18 +156,12 @@ h1 {
 	margin-top: 0;
 	margin-bottom: 0%;
 }
-body main section article {
+main article {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border-bottom: 2px #800000;
-	
-	
+	border-top: 2px #800000;
 }
-
-body main section article h2{
-	border-top: 15px #800000;
-}
-
 article img {
 	float: right;
 	margin-top: 5px;
@@ -182,4 +177,8 @@ article h2 {
 article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
+}
+
+aside h2 {
+    font-size: 130%;
 }
